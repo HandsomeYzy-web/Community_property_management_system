@@ -3,7 +3,7 @@ package Connection;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
+//用于连接数据库
 public class MyConnection {
     public Connection ConnectionDBS(){
         Connection con=null;

@@ -9,7 +9,7 @@ import java.awt.event.ActionEvent;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
+//登陆界面作为整个程序的启动入口
 public class LoginRegisterFrame {
     JFrame LoginRegisterFrame=new JFrame();
     public LoginRegisterFrame(){

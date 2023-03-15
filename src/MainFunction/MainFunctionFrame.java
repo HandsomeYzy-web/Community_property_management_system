@@ -3,7 +3,7 @@ package MainFunction;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-
+//系统主功能界面，用于选择要进行的操作
 public class MainFunctionFrame {
     JFrame MainFunctionFrame=new JFrame();
     public MainFunctionFrame(){
@@ -44,21 +44,21 @@ public class MainFunctionFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 MainFunctionFrame.setVisible(false);
-                new PaymentManagementFrame();
+                new PaymentManagementFrame();//跳转到缴费管理界面
             }
         });
         WarrantyManagement.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 MainFunctionFrame.setVisible(false);
-                new MaintenanceManagementFrame();
+                new MaintenanceManagementFrame();//跳转到保修管理界面
             }
         });
         NotificationManagement.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 MainFunctionFrame.setVisible(false);
-                new noticeManagementFrame();
+                new noticeManagementFrame();//跳转到通知管理界面
             }
         });
         ExitSystem.addActionListener(new AbstractAction() {

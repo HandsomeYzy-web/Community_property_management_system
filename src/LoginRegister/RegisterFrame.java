@@ -5,7 +5,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.sql.*;
-
+//注册界面
 public class RegisterFrame {
     JFrame RegisterFrame=new JFrame();
     public RegisterFrame(){
